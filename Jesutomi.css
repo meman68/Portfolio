@@ -59,7 +59,7 @@ header{
    font-family: fantasy;
     color: rgba(180, 23, 194, 0.932);
   }
-  /* button */
+  /* buttons */
   button{
     background-color: blue;
     height: 1.4cm;
@@ -68,6 +68,9 @@ header{
     border-radius: 5px;
     box-shadow: 0 5px 0 10px;
   }
+button a{
+    color: maroon;
+}
   /* image */
   .image{
     z-index: -1;
@@ -260,7 +263,6 @@ main{
 }
 .btn{
   color: white;
-  
 }
 
 
