@@ -1,0 +1,520 @@
+/* universal selector */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body tf the portfolio */
+body{
+  font-family:Arial, Helvetica, sans-serif ;
+  background-color: rgba(221, 195, 195, 0.26);
+  height: 100vh;
+  width: 100%;
+  
+}
+.heropg{
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.342), rgba(255, 255, 255, 0.541)), url(Ab.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* z-index: -1; */
+}
+.topnav{
+  display: flex;
+  gap: 7.2in;
+  /* padding-top: 10px; */
+  height: fit-content;
+  border-top: 10px solid red;
+  border-bottom: 10px solid red;
+  align-items: center;
+  width: 100vw;
+  /* z-index: 2;  */
+}
+
+
+  /* div casing */
+  .casing{
+    display: flex;
+    justify-items: center; 
+    align-items: center;
+    height: 82vh;
+    gap: 4in;
+  }
+  /* div texts */
+  .texts{
+    line-height: 40px;
+  }
+  /* paragraphs p */
+  p{
+    font-size: 25px;
+    color: #c71d1d;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  /* heading1, (I'm Jesutomi) */
+  h1{
+    color: black;
+    font-weight: 1000;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  /* h2 (Porfolio and Frontend.... )  */
+  h2{
+   font-family: fantasy;
+    color: rgba(180, 23, 194, 0.932);
+  }
+  /* button */
+  button{
+    background-color: blue;
+    height: 1.4cm;
+    width: 5cm;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 3px rgba(88, 86, 86, 0.199);
+  }
+  /* image */
+  .image{
+    margin-top: 115px;
+  }
+  /* .imag{
+    width: 100%;
+    height: auto;
+  } */
+  /* nav bar */
+nav ul{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  font-size: 20px;
+  border-radius: 12px 0 8px 0;
+  /* z-index: 2; */
+}
+#blue{
+  font-size: 45px;
+  padding-left: 10px;
+  /* font-family: 'Playfair Display'; */
+}
+a{ 
+  text-decoration: none;
+  font-weight: 1000;
+}  
+li a {
+display: inline-block;
+color: rgb(173, 10, 10);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+text-transform: uppercase;
+}
+li a:hover,.drop:hover{
+background-color: rgb(72, 117, 202);
+box-shadow: 0px 12px 16px 5px rgba(2, 1, 44, 0.911);
+border-radius: 5px;
+}
+li.drop{
+display: inline-block;
+}
+.content {
+display: none;
+position: absolute;
+background-color: #b4d1f3;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(68, 7, 7, 0.685);
+z-index: 1;
+}
+.content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+text-transform: capitalize;
+}
+.content a:hover {
+  background-color: #8916be5d;
+}
+.drop:hover .content {
+display: block;
+}
+.tag1 a:hover{
+  color: blue;
+}
+.tag2 a:hover{
+  background-color: black;
+  color: white;
+}
+.tag3 a:hover{
+  background-color: white;
+  color: rgb(36, 95, 221);
+}
+.tag4 a:hover{
+  background-color: rgb(7, 87, 7);
+  color: #c71d1d;
+  
+}
+/* end of nav bar */
+
+/* about.html css */
+  /* about me  */
+  section{
+    background-image: linear-gradient(to right, rgba(235, 235, 241, 0.5),rgba(41, 34, 34, 0.479),rgba(223, 223, 182, 0.808));
+    height: 110vh;
+    /* margin-top: 75px; */
+  }
+  aside{
+    margin: 1in;
+    color: rgb(20, 48, 48);
+  }
+ /* h1 about    */
+  #abo{
+    text-align: center;
+    color: rgb(214, 213, 145);
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 5px double #c71d1d;
+    border-top: 10px solid brown;
+    border-width: 50%;
+  }
+  /* p texts */
+  .one{
+    margin-top: -25px;
+    color: rgb(24, 26, 167);
+    font-size: 25px;
+    /* text-align: center; */
+    text-indent: 20px;
+    /* margin-left: 30px; */
+    line-height: 50px;
+  }
+  .hob{
+    margin-left: 1in;
+    margin-bottom: 35px;
+    padding: 5px;
+    border: 4px dotted whitesmoke;
+    border-radius: 0 10px 5px 10px;
+    background-color: #b4d1f3;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+  }
+.gif li,.gif li::marker{
+  margin-left: 30px;
+  margin-top: 20px;
+  color: chocolate;
+}
+footer{
+  text-align: right;
+  font-size: large;
+  font-family: fantasy;
+}
+/* skills.html css */
+/* my skills */
+/* differential body */
+#body{
+  background-image: linear-gradient(to right, rgba(42, 53, 207, 0.397), rgba(228, 228, 235, 0.082), rgba(255, 255, 255, 0.322));
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+main{
+  margin: 50px;
+  color: rgb(10, 60, 83);
+}
+/* h1 skills */
+.ski{
+  color: rgb(199, 16, 16);
+  text-transform: uppercase;
+  /* margin-bottom: 100px; */
+  text-align: center;
+  border-bottom: 15px dashed blueviolet;
+  border-top: 15px solid blue;
+  /* position: fixed; */
+  /* left: 7in; */
+}
+.eight{
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1in;
+  margin-bottom: 30px;
+}
+.dev{
+  font-size: 40px;
+  border-bottom: 13px solid rgba(4, 4, 119, 0.589);
+  margin-bottom: 50px;
+}
+ em{
+  font-size: 20px;
+}
+.dfg{
+  text-indent: 30px;
+  color: rgb(2, 4, 17);
+  font-size: 25px;
+}
+.im img{
+  cursor: zoom-in;
+}
+.im{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  width: 40vw;
+  flex-wrap: wrap;
+  gap: 10vh; 
+}
+.data{
+  font-size: 27px;
+  text-indent: 30px;
+  color: rgb(2, 4, 17);
+}
+
+
+/* ---- trying to make responsive */
+@media only screen and (max-width: 700px) {
+  .heropg{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.452),rgba(0, 0, 255, 0.418)), url('Ab.jpg');
+  }
+  .topnav{
+    display: flex;
+    gap: 175px;
+    height: fit-content;
+    border-top: 7px solid rgba(255, 0, 0, 0.815);
+    border-bottom: 7px solid rgba(255, 0, 0, 0.534);
+    align-items: center;
+    width: 100vw;
+  }
+  nav ul{
+    font-size: 13px;
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+    border-radius: 12px 0 8px 0;
+  }
+  .content {
+    min-width: 140px;
+  }
+  #blue{
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  .casing{
+    display: flex;
+    /* height: 40vh; */
+    width: 85vw;
+    align-items: center;
+    gap: 50px;
+  }
+  img.imag{
+    width: 385px;
+    height: 520px;
+    margin-left: -5px;
+    object-fit: cover;
+  }
+  .texts{
+    line-height: 40px;
+    font-size: 15px;
+    padding-left: -2in;
+  }
+  p{
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+   h1{
+    color: black;
+    font-weight: 1000;
+    font-size: 49px;
+    margin-bottom: 10px;
+  }
+  h2{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: -13px;
+  }
+  button{
+    height: 1.2cm;
+    width: 4cm;
+  }
+  /* abouttt */
+  #abo, .ski{
+    font-size: 42px;
+  }
+  .one{
+    font-size: 19.4px;
+    line-height: 30px;
+    margin-top: -5px;
+    margin-left: -50px;
+  }
+  .hob{
+    margin-left: -5px;
+    margin-bottom: 30px;
+  }
+  .gif li,.gif li::marker{
+    margin-left: -15px;
+    margin-top: 15px;
+    color: chocolate;
+  }
+  footer{
+    text-align: right;
+    font-size: 15px;
+    font-family: fantasy;
+  }
+   /* skills */
+   .eight{
+    font-size: 20px;
+    margin-left: 0.3in;
+    margin-bottom: 30px;
+  }
+  .dev{
+    font-size: 30px;
+    border-bottom: 9px solid rgba(4, 4, 119, 0.589);
+    margin-bottom: 30px;
+    padding-left: 15px;
+  }
+  .dfg{
+    text-indent: 20px;
+    color: rgb(2, 4, 17);
+    font-size: 19px;
+}
+  em{
+    font-size: 15px;
+  }
+  .scrsh{
+    height: 300px;
+    width: 500px;
+    /* object-fit: cover; */
+  }
+  .data{
+    font-size: 19px;
+    text-indent: 20px;
+  }
+  .foot{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .heropg{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(33, 33, 182, 0.705),rgba(38, 38, 182, 0.548)), url('Ab.jpg');
+  }
+  .topnav{
+    display: flex;
+    gap: 50px;
+    height: fit-content;
+    border-top: 7px solid rgba(202, 24, 24, 0.664);
+    border-bottom: 7px solid rgba(255, 0, 0, 0.37);
+    align-items: center;
+    width: 100vw;
+  }
+  nav ul{
+    font-size: 10px;
+    display: flex;
+    gap: 1px;
+    list-style-type: none;
+    border-radius: 12px 0 8px 0;
+  }
+  li a{
+    padding: 8px 8px;
+  }
+  .content {
+    min-width: 140px;
+  }
+  #blue{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .casing{
+    display: flex;
+    /* height: 40vh; */
+    width: 85vw;
+    align-items: center;
+    gap: 50px;
+  }
+  img.imag{
+    max-width: 50px;
+    height: 200px;
+    margin-left: -5px;
+    /* object-fit: cover; */
+  }
+  .texts{
+    line-height: 40px;
+    padding-left: -2in;
+  }
+  p{
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+   h1{
+    color: black;
+    font-weight: 1000;
+    font-size: 49px;
+    margin-bottom: 10px;
+  }
+  h2{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: -13px;
+  }
+  button{
+    height: 1.2cm;
+    width: 4cm;
+  }
+  /* abouttt */
+  #abo, .ski{
+    font-size: 42px;
+  }
+  .one{
+    font-size: 19.4px;
+    line-height: 30px;
+    margin-top: -5px;
+    margin-left: -50px;
+  }
+  .hob{
+    margin-left: -5px;
+    margin-bottom: 30px;
+  }
+  .gif li,.gif li::marker{
+    margin-left: -15px;
+    margin-top: 15px;
+    color: chocolate;
+  }
+  footer{
+    text-align: right;
+    font-size: 15px;
+    font-family: fantasy;
+  }
+   /* skills */
+   .eight{
+    font-size: 20px;
+    margin-left: 0.3in;
+    margin-bottom: 30px;
+  }
+  .dev{
+    font-size: 30px;
+    border-bottom: 9px solid rgba(4, 4, 119, 0.589);
+    margin-bottom: 30px;
+    padding-left: 15px;
+  }
+  .dfg{
+    text-indent: 20px;
+    color: rgb(2, 4, 17);
+    font-size: 19px;
+}
+  em{
+    font-size: 15px;
+  }
+  .scrsh{
+    height: 100px;
+    width: 250px;
+    /* object-fit: cover; */
+  }
+  .data{
+    font-size: 19px;
+    text-indent: 20px;
+  }
+  .foot{
+    font-size: 14px;
+  }
+}
